@@ -1,0 +1,46 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #4caf50;
+}
+
+/* Controls container styling */
+.controls {
+    margin: 20px;
+}
+
+/* Button group styling */
+.button-group {
+    margin: 20px;
+}
+
+button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #cddc39;
+}
+
+/* Text area styling */
+textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+}

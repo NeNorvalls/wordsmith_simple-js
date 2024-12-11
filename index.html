@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WordSmith - Fun Edition</title>
+</head>
+    <body>
+        <h1>WordSmith - Play with Style!</h1>
+        <div class="controls">
+            <button onclick="setColor()">Set Color</button>
+            <input type="color" />
+        </div>
+        <div class="button-group">
+            <button onclick="toggleUnderline()">Underline</button>
+            <button onclick="toggleItalic()">Italic</button>
+            <button onclick="toggleBold()">Bold</button>
+            <button onclick="toggleMonospace()">Monospace</button>
+            <button onclick="removeFormat()">Remove Format</button>
+        </div>
+        <div>
+            <textarea id="words" placeholder="Write your text here..."></textarea>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+
